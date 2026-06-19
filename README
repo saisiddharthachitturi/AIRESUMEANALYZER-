@@ -1,0 +1,34 @@
+# AI Resume Analyzer
+
+A Python-only Flask web application for HR teams to upload a job description and multiple resumes, extract candidate details, match skills and requirements, rank candidates, and review candidate profiles.
+
+## Run
+
+```bash
+python app.py
+```
+
+Then open:
+
+```text
+http://127.0.0.1:5000
+```
+
+## Supported Files
+
+- Job descriptions: pasted text, PDF, DOCX, TXT
+- Resumes: PDF, DOCX
+
+## Features
+
+- Paste a job description directly or upload a JD file
+- Drag-and-drop resume upload
+- Upload multiple resumes all at once
+- Analysis progress indicator
+- Skill normalization and synonym handling
+- Required and preferred JD skill extraction
+- Candidate parsing for name, email, phone, skills, education, experience, projects, and certifications
+- Match score breakdown for skills, experience, and education
+- Ranked, searchable, filterable dashboard
+- CSV export
+- Candidate detail pages with strengths, missing skills, and interview focus areas
